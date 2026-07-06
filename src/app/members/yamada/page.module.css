@@ -1,0 +1,36 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.container:hover {
+  transform: translateY(-4px);
+}
+
+.name {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.container p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+  margin: 8px 0;
+}
+
+.message {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #ffffff;
+  border-left: 5px solid #3cc6a8;
+  border-radius: 8px;
+  text-align: left;
+}
